@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.math.*;
 
 public class SimpleMethod3 {
 
@@ -9,13 +10,15 @@ public class SimpleMethod3 {
           the arguments correctly and cast upon return.
      */
     public static int square(int number) {
-        // Put your code here
-        return 0;
+        int x;
+        x = (int) Math.floor(Math.pow(number, 2));
+        return x;
     }
 
     public static double square(double number) {
-        // Put your code here
-        return 0;
+        double x;
+        x = Math.pow(number, 2);
+        return x;
     }
 
     public static void main(String[] args) {
